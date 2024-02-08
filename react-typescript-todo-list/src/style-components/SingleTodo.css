@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Ubuntu:wght@300&display=swap');
+
+.form{
+
+
+    font-family: 'Neucha', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-size: 22px;
+display:  flex;
+flex-direction: column;
+align-items: center;
+}
+.singleTodo-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3c10d;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+.editInput{
+ padding: 7px; 
+ border: none; 
+ border-radius: 15px;
+ box-shadow: inset 0 0 3px black;
+ width: 50%;
+}
+span{
+    margin-right: 10px;
+}

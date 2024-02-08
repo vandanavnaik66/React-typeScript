@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+/* If you want to add any font to your file , got to google font or search any font name in the google 
+and import that by clicking on import option there
+and in that file for main container give font-family:necha ; of font you have imported */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Neucha', cursive;
+  background-color: #0088ff;
+  height: 100vh;
+}
+.heading{
+  font-size: 30px;
+  color: white;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+@media(max-width:800px){
+  .heading{
+    font-size: 20px;
+    margin-bottom:20px ;
+  }
+}
